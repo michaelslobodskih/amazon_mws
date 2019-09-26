@@ -1046,7 +1046,7 @@ class MarketplaceWebService_Client implements MarketplaceWebService_Interface
       CURLOPT_USERAGENT => $this->config['UserAgent'],
       CURLOPT_VERBOSE => true,
       CURLOPT_HEADERFUNCTION => array ($this, 'headerCallback'),
-      CURLOPT_RETURNTRANSFER => true,
+      CURLOPT_RETURNTRANSFER => false,
       CURLOPT_SSL_VERIFYPEER => true,
       CURLOPT_SSL_VERIFYHOST => 2
     );
