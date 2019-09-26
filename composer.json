@@ -1,7 +1,7 @@
 {
   "name": "michaelslobodskih/amazon_mws",
   "description": "Amazon Marketplace Web Service libraries",
-  "type": "project",
+  "type": "library",
   "require": {
     "php": ">=7.0"
   },
