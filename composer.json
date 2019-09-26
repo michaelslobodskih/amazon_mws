@@ -1,5 +1,5 @@
 {
-  "name": "qualibet/amazon_mws",
+  "name": "michaelslobodskih/amazon_mws",
   "description": "Amazon Marketplace Web Service libraries",
   "type": "project",
   "require": {
