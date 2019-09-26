@@ -634,7 +634,7 @@ class MarketplaceWebServiceOrders_Client implements MarketplaceWebServiceOrders_
         curl_setopt($ch, CURLOPT_POSTFIELDS, $query);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $allHeadersStr);
         curl_setopt($ch, CURLOPT_HEADER, true); 
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, false);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         if ($config['ProxyHost'] != null && $config['ProxyPort'] != -1)
         {
             curl_setopt($ch, CURLOPT_PROXY, $config['ProxyHost'] . ':' . $config['ProxyPort']);
