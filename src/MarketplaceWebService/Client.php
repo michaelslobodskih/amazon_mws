@@ -934,7 +934,7 @@ class MarketplaceWebService_Client implements MarketplaceWebService_Interface
             $parsedHeader['x-mws-timestamp'],
             $parsedHeader['x-mws-quota-max'] ?? null,
             $parsedHeader['x-mws-quota-remaining'] ?? null,
-            $parsedHeader['x-mws-quota-resetson'] ?? null,
+            $parsedHeader['x-mws-quota-resetson'] ?? null
     );
 
         $code = (int)curl_getinfo($this->curlClient, CURLINFO_HTTP_CODE);
